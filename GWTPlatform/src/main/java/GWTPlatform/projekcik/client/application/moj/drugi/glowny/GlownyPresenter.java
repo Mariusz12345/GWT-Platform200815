@@ -15,8 +15,6 @@ import com.gwtplatform.mvp.client.proxy.RevealRootContentEvent;
 
 import GWTPlatform.projekcik.client.application.moj.drugi.glowny.EventyEvent.EventyHandler;
 
-import com.gwtplatform.dispatch.client.gin.DispatchAsyncModule;
-import com.gwtplatform.dispatch.rpc.shared.DispatchAsync;
 import com.gwtplatform.mvp.client.HasUiHandlers;
 public class GlownyPresenter extends Presenter<GlownyPresenter.MyView, GlownyPresenter.MyProxy> implements GlownyUiHandlers {
     interface MyView extends View , HasUiHandlers<GlownyUiHandlers> {
@@ -37,7 +35,6 @@ public class GlownyPresenter extends Presenter<GlownyPresenter.MyView, GlownyPre
     @ProxyStandard
     interface MyProxy extends Proxy<GlownyPresenter> {
     }
-    
 
     @Inject
     GlownyPresenter(
