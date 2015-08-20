@@ -1,0 +1,11 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui">
+    <g:PopupPanel modal="true"  autoHideEnabled="true" glassEnabled="true">
+  	<g:HTMLPanel>
+  		<B> Popup Panel</B>
+  		<g:TextArea/>
+  		<g:Button text = "ok" ui:field="guzik"/>
+  	</g:HTMLPanel>
+    </g:PopupPanel>
+</ui:UiBinder>
